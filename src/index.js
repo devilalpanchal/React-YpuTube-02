@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import DyanamicRoute from './DyanamicRouting/DyanamicRoute';
 import APICall from './APICall';
 import TextGenerator from './TextGenerator';
+import PostMethodAPI from './PostMethodAPI';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ root.render(
     <DyanamicRoute/>
     <APICall/>
     <TextGenerator/>
+    <PostMethodAPI/>
   </React.StrictMode>
 );
 

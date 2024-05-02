@@ -28,7 +28,7 @@ setActive(id)
             id:3,
             name:"devi2",
             title:'ss'
-        },
+        },                                                    
     ]
   return (
     <div className='hello'>
