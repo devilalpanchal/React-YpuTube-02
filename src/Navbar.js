@@ -5,6 +5,7 @@ const Navbar = () => {
     <div>
         <Link to="/home">Home</Link> <br/> <br/>
         <Link to="/file">File</Link> <br/> <br/>
+        <Link to="/login">it is not component</Link> <br/> <br/>
     </div> 
   )
 }
