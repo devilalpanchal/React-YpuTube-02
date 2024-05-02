@@ -4,7 +4,7 @@ import Home from './Home';
 import File from './File';
 import Navbar from './Navbar';
 import Page404 from './Page404';
-import { BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // Remember Switch OR exact Keyword in react-Route
 function App() {
   return (
