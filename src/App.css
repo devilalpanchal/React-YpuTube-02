@@ -7,5 +7,46 @@
   text-align: center;
   border: 3px solid blue;
 }
+.hello{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+.list{
+  border: 1px solid red;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  list-style-type: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+.activeitem{
+  color: red;
+  border-color: blue;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.typing{
+width: 20rem;
+text-wrap: nowrap;
+overflow: hidden;
+  animation: welcome 5s infinite linear ;
+}
 
-
+@keyframes welcome {
+  from{
+    width: 1rem;
+  }to{
+    width: 20rem;
+  }
+}

@@ -24,7 +24,6 @@ const DyanamicRoute = () => {
 
                             {/* <User data={item} /> */}
                         </div>
-
                     )
                 }
                 <User />
@@ -33,5 +32,4 @@ const DyanamicRoute = () => {
         </div>
     )
 }
-
 export default DyanamicRoute

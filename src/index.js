@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import DyanamicRoute from './DyanamicRouting/DyanamicRoute';
+import APICall from './APICall';
+import TextGenerator from './TextGenerator';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <DyanamicRoute/>
+    <APICall/>
+    <TextGenerator/>
   </React.StrictMode>
 );
 
