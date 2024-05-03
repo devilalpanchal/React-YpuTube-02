@@ -20,7 +20,7 @@ const PreFilledForm = () => {
             'Accept':'application/json',
             'Content-Type':'application/json',
         },
-        body:JSON.stringify(data)
+        body:JSON.stringify()
     }).then((result)=>{
         // result.JSON().then((resp)=>{
         //     console.log("resp",resp)

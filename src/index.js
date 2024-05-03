@@ -9,6 +9,7 @@ import TextGenerator from './TextGenerator';
 import PostMethodAPI from './PostMethodAPI';
 import MapFucn from './DeleteMethodAPI';
 import PreFilledForm from './PreFilledForm';
+import PreviousState from './PreviousState';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ root.render(
     <PostMethodAPI/>
     <MapFucn/>
     <PreFilledForm/>
+    <PreviousState/>
   </React.StrictMode>
 );
 
