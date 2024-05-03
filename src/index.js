@@ -12,6 +12,7 @@ import PreFilledForm from './PreFilledForm';
 import PreviousState from './PreviousState';
 import PreviousProps from './PreviousProps';
 import StateWithObject from './StateWithObject';
+import HelloContext from './ContextAPIComponent/helloContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -25,6 +26,7 @@ root.render(
     <PreviousState/>
     <PreviousProps/>
     <StateWithObject/>
+    <HelloContext/>
   </React.StrictMode>
 );
 
