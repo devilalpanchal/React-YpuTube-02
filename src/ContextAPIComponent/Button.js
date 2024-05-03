@@ -1,6 +1,5 @@
 import React from 'react';
 import { CommanContext } from './CommanContext';
-
 function Button() {
     return (
         <div className='App'>
