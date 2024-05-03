@@ -18,7 +18,7 @@ const ApiFEtching = () => {
             <h3>
                 COVID - 19 CASES COUNTRY WISE
             </h3>
-            <input type='text' placeholder='Enter Country name' onChange={handleChange} value={value} /> <br />
+            <input className='input' type='text' placeholder='Enter Country name' onChange={handleChange} value={value} /> <br />
             <button> Search </button>
             {
                 <div className='name' >
