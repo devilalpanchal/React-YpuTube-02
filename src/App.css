@@ -63,3 +63,7 @@ overflow: hidden;
     width: 20rem;
   }
 }
+.name{
+  border: 1px solid blue;
+  width: 100%;
+}

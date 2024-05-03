@@ -13,6 +13,8 @@ import PreviousState from './PreviousState';
 import PreviousProps from './PreviousProps';
 import StateWithObject from './StateWithObject';
 import HelloContext from './ContextAPIComponent/helloContext';
+import Counter from './Counter';
+import ApiFEtching from './ApiFEtching';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -27,6 +29,8 @@ root.render(
     <PreviousProps/>
     <StateWithObject/>
     <HelloContext/>
+    <Counter/>
+    <ApiFEtching/>
   </React.StrictMode>
 );
 
