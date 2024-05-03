@@ -2,6 +2,19 @@
   text-align: center;
   border: 2px solid brown;
 }
+.Bpp {
+  text-align: center;
+  background-color: rgb(184, 188, 91);
+  /* border-radius: 20px; */
+  border: 1px solid red;
+  padding: 100px;
+}
+.app {
+  text-align: center;
+  background-color: rgb(225, 167, 30);
+  /* border-radius: 20px; */
+  border: 5px solid rgb(129, 164, 136);
+}
 .apnaUser{
   margin-top: 20px;
   text-align: center;

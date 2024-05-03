@@ -19,7 +19,10 @@ const PostMethodAPI = () => {
             },
             body:JSON.stringify(data)
         }).then((result)=>{
-            console.log("result")
+            // result.JSON().then((resp)=>{
+            //     console.log("resp",resp)
+
+            // })
         })
     }
   return (

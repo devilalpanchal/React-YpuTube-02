@@ -7,6 +7,8 @@ import DyanamicRoute from './DyanamicRouting/DyanamicRoute';
 import APICall from './APICall';
 import TextGenerator from './TextGenerator';
 import PostMethodAPI from './PostMethodAPI';
+import MapFucn from './DeleteMethodAPI';
+import PreFilledForm from './PreFilledForm';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -15,6 +17,8 @@ root.render(
     <APICall/>
     <TextGenerator/>
     <PostMethodAPI/>
+    <MapFucn/>
+    <PreFilledForm/>
   </React.StrictMode>
 );
 
