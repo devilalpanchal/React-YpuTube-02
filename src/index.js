@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Home from './contextapi/home';
+import File from './contextapi/file';
 import reportWebVitals from './reportWebVitals';
 import DyanamicRoute from './DyanamicRouting/DyanamicRoute';
 import APICall from './APICall';
@@ -18,7 +20,9 @@ import ApiFEtching from './ApiFEtching';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Home/>
     <App />
+    <File/>
     <DyanamicRoute/>
     <APICall/>
     <TextGenerator/>
@@ -31,6 +35,7 @@ root.render(
     <HelloContext/>
     <Counter/>
     <ApiFEtching/>
+    
   </React.StrictMode>
 );
 
